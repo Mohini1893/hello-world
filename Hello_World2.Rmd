@@ -1,0 +1,16 @@
+---
+title: "Hello_World2"
+author: "Mohini Agarwal"
+date: "8/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+ran_var = rnorm(50, mean = 0, sd = 1)
+hist(ran_var)
+```
+
